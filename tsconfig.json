@@ -5,7 +5,7 @@
     "jsx": "preserve",
     "lib": ["es6", "dom"],
     "moduleResolution": "node",
-    "skipLibCheck": false,
+    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitAny": true,

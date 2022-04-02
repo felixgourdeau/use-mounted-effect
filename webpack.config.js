@@ -43,7 +43,7 @@ module.exports = (env, argv) => {
       umdNamedDefine: true,
     },
     resolve: {
-      extensions: ["ts", "tsx", "js", "jsx", "json"],
+      extensions: [".ts"],
       alias: {
         react: path.resolve(__dirname, "./node_modules/react"),
       },
