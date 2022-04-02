@@ -1,10 +1,10 @@
 const fs = require("fs");
 const path = require("path");
 
-// Copy .npmignore to the dist folder
+// Copy package.json to the dist folder
 fs.copyFileSync(
-  path.resolve(__dirname, "../.npmignore"),
-  path.resolve(__dirname, "../dist/.npmignore")
+  path.resolve(__dirname, "../package.json"),
+  path.resolve(__dirname, "../dist/package.json")
 );
 
 // Copy README to the dist folder
