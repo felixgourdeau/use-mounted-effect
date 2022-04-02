@@ -14,7 +14,7 @@ yarn add use-mounted-effect
 
 ## Purpose
 
-When using an asynchronous effect, it can be a potential memory leak. 
+When using an asynchronous effect, it can be a potential memory leak.
 
 ```typescript
 const [state, setState] = React.useState();
@@ -30,10 +30,10 @@ This hook will run your effect only if the component is mounted.
 
 ### Usage
 
-You can use `useMountedEffect` like you would use `React.useEffect`, but it provides you the following addon:
+You can use `useMountedEffect` like you would use `React.useEffect`, but it provides you the following benefits:
 
 - You can pass an `async` callback
-- Your callback will be called with a `isMounted()` argument that your effect can use to check if the component is still mounted.
+- Your effect will be called with an `isMounted()` argument that it can use to check if the component is still mounted.
 
 ### Example
 
