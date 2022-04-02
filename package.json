@@ -1,6 +1,6 @@
 {
   "name": "use-mounted-effect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React hook to run effect only if component is mounted",
   "license": "MIT",
   "author": {
