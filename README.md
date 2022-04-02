@@ -8,10 +8,14 @@ Credits to [Étienne Martin](https://etiennemartin.ca) for the template of this 
 
 ## Installation
 
-To use use-mounted-effect in your project, run:
+To add use-mounted-effect to your project, run:
 
 ```shell script
 yarn add use-mounted-effect
+```
+or
+```shell script
+npm install use-mounted-effect
 ```
 
 ## Purpose
@@ -26,7 +30,7 @@ React.useEffect(() => {
 }, []);
 ```
 
-If the fetch call resolve when the component is unmounted, the state will be updated on something that isn't existing anymore.
+If the component is unmounted before the setTimer callback is fired, the state will be updated on something that isn't existing anymore.
 
 This hook will run your effect only if the component is mounted.
 
