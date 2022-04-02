@@ -1,12 +1,12 @@
 # use-mounted-effect
 
 ![npm bundle size](https://img.shields.io/bundlephobia/min/use-mounted-effect)
+![npm](https://img.shields.io/npm/dm/use-mounted-effect)
 
 A React hook to run effect only if a component is mounted.
 
-Credits to [Lukas Klinzing](https://dev.to/theluk) for his [article](https://dev.to/theluk/usemountedeffect-asynchronous-useeffect-on-potentially-unmounted-components-5d56) about potential memory leak when using `React.useEffect` asynchronously.
-
-Credits to [Étienne Martin](https://etiennemartin.ca) for the template of this repository. 
+- Credits to [Lukas Klinzing](https://dev.to/theluk) for his [article](https://dev.to/theluk/usemountedeffect-asynchronous-useeffect-on-potentially-unmounted-components-5d56) about potential memory leak when using `React.useEffect` asynchronously
+- Credits to [Étienne Martin](https://etiennemartin.ca) for the repository template 
 
 ## Installation
 
@@ -41,7 +41,7 @@ This hook will run your effect only if the component is mounted.
 You can use `useMountedEffect` like you would use `React.useEffect`, but it provides you the following benefits:
 
 - You can pass an `async` callback
-- Your effect will be called with an `isMounted()` argument that it can use to check if the component is still mounted.
+- Your effect will be called with an `isMounted()` argument that it can use to check if the component is still mounted
 
 ### Example
 
