@@ -1,8 +1,10 @@
 # use-mounted-effect
 
-A React hook to run effect only if component is mounted.
+A React hook to run effect only if a component is mounted.
 
 Credits to [Lukas Klinzing](https://dev.to/theluk) for his [article](https://dev.to/theluk/usemountedeffect-asynchronous-useeffect-on-potentially-unmounted-components-5d56) about potential memory leak when using `React.useEffect` asynchronously.
+
+Credits to (Étienne Martin)(https://etiennemartin.ca) for the template of this repository. 
 
 ## Installation
 

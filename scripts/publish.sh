@@ -23,6 +23,8 @@ PACKAGE_VERSION=$(cat package.json \
   | sed 's/[",]//g' \
   | tr -d '[[:space:]]')
 
+  echo $PACKAGE_NAME $PACKAGE_VERSION
+
 if npm show "$PACKAGE_NAME" version | grep -w "$PACKAGE_VERSION" > /dev/null; then
   echo "$PACKAGE_NAME@$PACKAGE_VERSION is already published!";
 else
