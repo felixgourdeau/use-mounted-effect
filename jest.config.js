@@ -1,6 +1,5 @@
 module.exports = {
   testEnvironment: "jsdom",
-  testURL: "http://localhost/",
   transform: {
     "^.+\\.tsx?$": "babel-jest",
   },
